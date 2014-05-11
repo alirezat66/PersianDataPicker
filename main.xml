@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+        >
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight=".2">
+
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight=".6">
+
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="60dp">
+                <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/yearupper"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/arrow_up" />
+                <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/mountupper"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/arrow_up" />
+                <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/dayupper"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/arrow_up" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="50dp">
+
+                <EditText android:layout_width="50dp" android:layout_height="40dp"
+                          android:background="#FFFFFF"
+                        android:layout_marginLeft="50dp"
+                        android:textColor="#000000"
+                        android:id="@+id/edtyear"
+
+                        android:textAlignment="center"
+
+                        android:gravity="center"
+
+
+                        android:enabled="false"/>
+                <EditText android:layout_width="50dp" android:layout_height="40dp"
+                        android:background="#FFFFFF"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+android:enabled="false"
+                        android:textColor="#000000"
+                        android:id="@+id/edtmonth"/>
+                <EditText android:layout_width="50dp" android:layout_height="40dp"
+                          android:background="#FFFFFF"
+                          android:enabled="false"
+                          android:textAlignment="center"
+
+                          android:gravity="center"
+                          android:layout_marginLeft="20dp"
+                          android:textColor="#000000"
+                          android:id="@+id/edtday"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="80dp">
+                <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:rotation="180"
+                        android:layout_marginLeft="50dp"
+                        android:background="@drawable/arrow_up"
+                        android:id="@+id/yearlower"/>
+                <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:rotation="180"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/arrow_up"
+                        android:id="@+id/mountlower"/>
+                <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:rotation="180"
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/arrow_up"
+                        android:id="@+id/daylower"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight=".2">
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
